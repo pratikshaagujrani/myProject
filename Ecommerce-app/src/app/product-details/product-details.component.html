@@ -1,0 +1,15 @@
+<div class="product-details-grid">
+    <div class="product-card" *ngFor="let product of products">
+      <img [src]="product.icon" alt="{{product.title}}">
+      <h4>{{product.title}}</h4>
+    </div>
+</div>
+
+
+<div class="info-container">
+    <div class="info-item" *ngFor="let info of infos">
+      <div class="info-icon">
+        <img [src]="info.icon" alt="{{info.title}}">
+      </div>
+      <h4>{{info.title}}</h4>
+</div> 

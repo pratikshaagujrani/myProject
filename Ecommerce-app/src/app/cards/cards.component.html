@@ -1,0 +1,23 @@
+<br>
+<div class="festive-heading">
+    <h2>FESTIVE DHAMAKA</h2>
+</div>
+
+<br>
+
+<div class="cards-container">
+  <div class="card" *ngFor="let card of cards">
+    <img [src]="card.image" alt="{{card.title}}">
+    <div class="card-content">
+        <h3>{{card.title}}</h3>
+        <p>{{card.description}}</p>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="festive-heading">
+  <h2>Crazy Deals</h2>
+  <h3>Unlash the Festive Frenzy...</h3>
+</div>
